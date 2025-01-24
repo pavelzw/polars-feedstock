@@ -2,6 +2,8 @@
 
 set -ex
 
+export
+
 export CARGO_PROFILE_RELEASE_STRIP=symbols
 
 case "${target_platform}" in
